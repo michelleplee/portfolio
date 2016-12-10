@@ -1,0 +1,190 @@
+footer{
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+footer h4{
+    font-size: 12px;
+    letter-spacing: normal;
+    font-family: open sans;
+    font-style: normal;
+    color: gold;
+    
+    font-weight: bold;
+    
+}
+
+footer ul li{
+    list-style-type: none;
+    font-family: open sans;
+    margin-bottom: 5px;
+    margin-left: -20px;
+    font-size: 12px;
+}
+
+
+
+body {
+    background-color: #131313;
+    color: white;
+    font-family: open sans;
+}
+
+.top-bar,
+.top-bar-left li,
+.top-bar-right li,
+.dropdown menu {
+    background-color: #131313;
+    color: white;
+    letter-spacing: 2px;
+    
+}
+
+
+nav {
+    color: white;
+    margin-top: 30px;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li{
+    float:right;
+    margin-right: 40px;
+    color:white;
+     font-size: 16px;
+}
+
+
+a:link{
+text-decoration: none;
+color:gold;
+}
+
+a:visited{
+text-decoration: none;
+color:gold;
+}
+
+a:hover{
+text-decoration: none;
+color:grey;
+}
+
+a:active{
+text-decoration: underline;
+color:white;
+}
+
+
+#row1 {
+    height: 300px;
+    background-image: url("../images/red-2.jpg");
+    background-size: contain;
+    margin-top: 5%;
+   margin-bottom: 50px; 
+}
+
+h1{
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: bold;
+    color: gold;
+    font-family: open sans;
+}
+
+h2{
+   
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: open sans;
+    margin-bottom: -2px;
+}
+
+
+h3{
+    font-family: lora;
+    font-size: 14px;
+    margin-bottom: -1px;
+}
+
+h4 {
+     font-family: lora;
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: -1px;
+}
+
+h5 {
+    letter-spacing: 2px;
+    font-family: open sans;
+    margin-top: 50px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+    margin-left: -10px;
+
+}
+
+p {
+    font-family: open sans;
+    font-size: 12px;
+}
+
+
+
+ul {
+ 
+    font-size: 12px;
+}
+
+
+ul li {
+
+    margin-bottom: 5px;
+    
+}
+
+
+
+
+.generalbutton{
+ margin-top: 10px;   
+padding: 15px 40px 15px 40px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    letter-spacing: 2px;
+    font-family: open sans;
+    font-size: 12px;
+}
+
+.row #floater{
+ margin-top: -190px;
+    position: relative; 
+    margin-bottom: 200px;
+}
+
+
+.generalbutton:hover{
+    background-color: white;
+    color: black;   
+}
+
+
+#back-top {
+  position: fixed;
+  bottom:20px;
+  right: 2%;
+  z-index: 100;
+    font-family: open sans;
+}
+    

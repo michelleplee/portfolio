@@ -1,0 +1,283 @@
+
+
+footer{
+        margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+footer h4{
+    font-size: 12px;
+    letter-spacing: normal;
+    
+}
+
+footer ul li{
+    list-style-type: none;
+    font-family: open sans;
+    margin-bottom: 5px;
+    margin-left: -20px;
+    font-size: 12px;
+}
+
+
+video#bgVideo {
+  position: absolute;
+  top: -200px;  
+ width: 110%; 
+  min-height: 800px;
+  z-index: -1; // Put the video behind all other elements
+}
+ 
+@media only screen and (max-width: 768px) {
+  video#bgVideo {
+    display:none;
+  }
+  body{
+    background-image:url("image.png");
+  }
+}
+
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: open sans;
+    
+    
+}
+
+.top-bar,
+.top-bar-left li,
+.top-bar-right li,
+.dropdown menu {
+    background-color: #131313;
+    color: white;
+    letter-spacing: 2px;
+    
+}
+
+
+nav {
+    color: white;
+    margin-top: 30px;
+    letter-spacing: 3px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li{
+    float:right;
+    margin-right: 40px;
+    color:white;
+}
+
+
+a:link{
+text-decoration: none;
+color:gold;
+}
+
+a:visited{
+text-decoration: none;
+color:gold;
+}
+
+a:hover{
+text-decoration: none;
+color:grey;
+}
+
+a:active{
+text-decoration: underline;
+color:gold;
+}
+
+
+#row1 {
+    margin-top: 27%;
+    margin-bottom: 10%;
+}
+
+h4 {
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-weight: bold;
+    color: gold;
+    font-family: open sans;
+}
+
+h5 {
+    letter-spacing: 2px;
+    font-family: open sans;
+    margin-top: 50px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+    margin-left: -10px;
+
+}
+
+p {
+    font-family: lora;
+    font-size: 20px;
+}
+
+.tags {
+    font-family: open sans;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: black;
+    display: inline-block;
+    background-color:white;
+     padding: 0px 10px 0px 10px;
+    margin-left: -10px;
+    
+}
+
+#gatonuestro, #domocracy, #frtz, #safetravel, #dipi, #soundscapes, #hackdavis {
+  
+    height: 400px;
+    margin-bottom: 70px;
+    z-index: 2;
+    
+}
+
+
+
+#gatonuestro {
+    background-image: url("../images/gato-1.jpg");
+  
+}
+
+
+#domocracy {
+    background-image: url("../images/domocracy-1.jpg");
+  
+}
+
+
+#frtz {
+    background-image: url("../images/frtz-1.jpg");
+  
+}
+
+
+#safetravel {
+    background-image: url("../images/safetravel.jpg");
+  
+}
+
+
+#dipi{
+    background-image: url("../images/dipi-2.jpg");
+  
+}
+
+
+#soundscapes {
+    background-image: url("../images/soundscapes.jpg");
+  
+}
+
+
+#hackdavis {
+    background-image: url("../images/hackdavis.jpg");
+  
+}
+
+
+
+.generalbutton{
+ margin-top: 10px;   
+padding: 15px 40px 15px 40px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    letter-spacing: 2px;
+    font-family: open sans;
+    font-size: 12px;
+}
+
+.row #floater{
+ margin-top: -190px;
+    position: relative; 
+    margin-bottom: 200px;
+}
+
+
+.generalbutton:hover{
+    background-color: white;
+    color: black;   
+}
+
+
+#back-top {
+  position: fixed;
+  bottom:20px;
+  right: 2%;
+  z-index: 100;
+    font-family: open sans;
+}
+    
+
+
+.close-button {
+ position: fixed;  
+    
+}
+
+
+.heroimage {
+ height: 500px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+
+
+
+h6 {
+ font-family: Open Sans;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    font-size: 12px;
+    
+}
+
+
+.descriptor-paragraphs, .expertise-class{
+ font-size: 14px;   
+    font-family: Lora;
+    
+}
+
+h3{
+ font-family: Lora;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+       display: inline-block;
+}
+
+
+#domocracy-hero-image{
+ background-image: url(../images/domocracy-1.jpg);
+background-size: cover;
+}
+
+#frtz-hero-image{
+ background-image: url(../images/frtz/161207_MindGrown_0088.jpg);
+background-size: cover;
+}
+
+
+
+#hackdavis-hero-image{
+ background-image: url(../images/hackdavis/hack11.jpg);
+background-size: cover;
+}
