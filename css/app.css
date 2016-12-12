@@ -281,3 +281,14 @@ background-size: cover;
  background-image: url(../images/hackdavis/hack11.jpg);
 background-size: cover;
 }
+
+
+#soundscapes-hero-image{
+ background-image: url(../images/soundscapes/heroimage.png);   
+}
+
+#safetravel-hero-image{
+ background-image: url(../images/safetravel.png);
+    background-size: cover;
+     
+}
